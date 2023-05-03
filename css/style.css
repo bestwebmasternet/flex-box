@@ -1,0 +1,12 @@
+body {
+    background-color: cadetblue;
+    color: antiquewhite;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p_text {
+    display: flex;
+    flex-direction:column;
+
+}
