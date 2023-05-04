@@ -4,20 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://assets.ubuntu.com/v1/vanilla-framework-version-3.14.0.min.css" />
     <link rel="stylesheet" href="/css/style.css">
     <title>Flex-Box</title>
 </head>
 <body>
-    <form>
-        <fieldset>
-          <label for="list-input-1">First name</label>
-          <input placeholder="Joe" id="list-input-1" name="list-input-1" type="text" autocomplete="given-name">
-          <label for="list-input-2">Last name</label>
-          <input placeholder="Bloggs" id="list-input-2" name="list-input-2" type="text" autocomplete="family-name">
-          <label for="list-input-3">Email address</label>
-          <input placeholder="example@canonical.com" id="list-input-3" type="email" autocomplete="email">
-        </fieldset>
-      </form>
+  <div class="flex-box_items">
+    <p>
+      Flexbox - це CSS модуль, який дозволяє вирішити проблеми з розташуванням елементів на веб-сторінці. Використання Flexbox дозволяє нам гнучко розміщувати елементи в рядки та стовпці, змінювати їх порядок, контролювати вирівнювання та розподіл простору між елементами. Ось кілька кроків для початку використання Flexbox:
+    </p>
+  </div>
+    <div class="flex-box_conteiner">
+      <div class="flex-box_items">
+        <p>Створіть контейнер для елементів, які ви хочете розташувати з допомогою Flexbox. Для цього використайте властивість display зі значенням flex або inline-flex, залежно від того, як елементи мають бути розміщені. Наприклад:
+        </p>
+        <div class="img_code">
+          <img src="/img/Screenshot_2.png" alt="">
+        </div>
+      </div>
+      <div class="flex-box_items">
+        Визначте основний напрямок розміщення елементів з допомогою властивості flex-direction. Ця властивість дозволяє вам вибрати, як елементи мають бути розміщені в рядку або стовпці. За замовчуванням, напрямок розташування елементів - зліва направо (для рядка) або зверху вниз (для стовпця). Наприклад, щоб розмістити елементи зверху вниз, встановіть flex-direction: column;.
+      </div>
+      <div class="img_code">
+        <img src="/img/Screenshot_1.png" alt="">
+      </div>
+      <div class="flex-box_items">
+        Встановіть властивість justify-content для вирівнювання елементів вздовж основного напрямку. Ця властивість дозволяє вам контролювати розподіл простору між елементами вздовж напрямку. Наприклад, якщо ви встановили flex-direction: row;, то justify-content визначає, як елементи будуть вирівнюватися зліва або праворуч. Якщо ви встановили flex-direction: column;, то justify-content визначає, як елементи будуть вирівнюватися зверху вниз. Доступні значення: flex-start,justify-content дозволяє вам також розподілити простір між елементами, використовуючи різні значення, такі як space-between, space-around та space-evenly. Ось декілька прикладів:
+      </div>
+      <div class="img_code">
+        <img src="/img/Screenshot_3.png" alt="">
+      </div>
+    </div>
 </body>
 </html>
