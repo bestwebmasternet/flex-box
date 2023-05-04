@@ -8,22 +8,22 @@ body {
 .flex-box_conteiner {
   display: flex;
   flex-direction: column;
+  flex-shrink: 1;
   }
   
 .flex-box_items {
-  margin: 25px;
+display: flex;
+flex-direction: column;
+flex-shrink: 1;
+flex-wrap: wrap;
+margin: 25px;
   }
     
 .img_code {
 display:flex;
 flex-direction: row;
+flex-shrink: 1;
 justify-content: center;
-flex-wrap: wrap;
-<<<<<<< HEAD
-align-content: space-between;
-=======
-align-content: stretch;
->>>>>>> cebe1316d904cd15f25688b097507b50f3f1426c
 margin: 25px;
   }
 
