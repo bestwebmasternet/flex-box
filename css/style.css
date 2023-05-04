@@ -19,7 +19,11 @@ display:flex;
 flex-direction: row;
 justify-content: center;
 flex-wrap: wrap;
+<<<<<<< HEAD
 align-content: space-between;
+=======
+align-content: stretch;
+>>>>>>> cebe1316d904cd15f25688b097507b50f3f1426c
 margin: 25px;
   }
 
