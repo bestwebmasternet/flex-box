@@ -1,8 +1,81 @@
 body {
-    background-color: rgb(21, 21, 21);
-    color: rgb(0, 90, 1);
+    background-color: rgb(75, 75, 75);
+    color: rgb(255, 0, 0);
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
   }
   
-
+  .flex-conteiner {
+  display: flex;
+  flex-direction: row;
+  flex-flow:wrap;
+  justify-content: space-around;
+  
+  }
+  
+  .items1 {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color:red;
+  height: 250px;
+  width: 250px;
+  margin: 20px;
+  }
+  
+  .items2 {
+    background-color:rgb(0, 255, 106);
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+    }
+    
+    
+    .items3 {
+      background-color:rgb(140, 0, 255);
+      height: 250px;
+      width: 250px;
+      margin: 20px;
+      }
+      
+      .items4 {
+        background-color:rgb(255, 251, 0);
+        height: 250px;
+        width: 250px;
+        margin: 20px;
+        }
+        
+        .items5 {
+          background-color:rgb(255, 0, 149);
+          height: 250px;
+          width: 250px;
+          margin: 20px;
+          }
+          
+          .items6 {
+            background-color:rgb(0, 247, 255);
+            height: 250px;
+            width: 250px;
+            margin: 20px;
+            }
+                              
+            .items7 {
+              background-color:rgb(89, 0, 255);
+              height: 250px;
+              width: 250px;
+              margin: 20px;
+              }
+              
+              .items8 {
+                background-color:rgb(0, 0, 0);
+                height: 250px;
+                width: 250px;
+                margin: 20px;
+                }
+                
+                .items9 {
+                  background-color:rgb(204, 0, 255);
+                  height: 250px;
+                  width: 250px;
+                  margin: 20px;
+                  }
+                            
