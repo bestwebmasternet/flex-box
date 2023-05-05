@@ -5,27 +5,4 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
   
-.flex-box_conteiner {
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 1;
-  }
-  
-.flex-box_items {
-display: flex;
-flex-direction: column;
-flex-shrink: 1;
-flex-wrap: wrap;
-margin: 25px;
-  }
-    
-.img_code {
-display:flex;
-flex-direction: row;
-flex-shrink: 1;
-justify-content: center;
-margin: 25px;
-  }
-
-
 
